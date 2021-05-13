@@ -1,0 +1,81 @@
+/* pages/capital/index.wxss */
+/* pages/level/index.wxss */
+page{
+  background-color: #ffffff;
+}
+.tab{
+  background-color: #ffffff;
+  width: 100%;
+  overflow: hidden;
+}
+
+.tab-my{
+  background: linear-gradient(to right,#F54558,#FE6E5F);
+  color: #ffffff !important;
+  border-radius: 15px;
+  height: 200px;
+  margin: 10px;
+}
+.tab-p{
+  font-size: 100rpx;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 70rpx;
+}
+.col-p{
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30rpx;
+  margin-bottom: 20rpx;
+}
+.col-t{
+  margin-top: 20rpx;
+  padding-bottom: 30rpx;
+}
+.tab-t,.col-t{
+  font-size: 30rpx;
+  text-align: center;
+  height: 30rpx;
+  line-height: 30rpx;
+  opacity: 0.5;
+  font-weight: bold;
+}
+.tab-c{
+  padding: 0 20rpx;
+  overflow: hidden;
+}
+.tab-col{
+  width: calc(50% - 2px);
+  float: left;
+}
+
+.tab-br{
+  background-color: #ffffff;
+  opacity: 0.5;
+  width: 1px;
+  height: 40px;
+  margin-top: 40rpx;
+  margin-bottom: 40rpx;
+  float: left;
+}
+
+.f-c{
+  color: #666666;
+  font-size: 24rpx;
+}
+
+.border{
+  border-bottom: 1px solid #EEEEEE;
+}
+
+/* 菜单列表 */
+.menus-list .menus-item {
+  position: relative;
+  padding: 28rpx 28rpx;
+  border-bottom: 1rpx solid #eee;
+}
+
+.menus-list .menus-item .menus-item__name {
+  color: #444;
+  margin-left: 20rpx;
+}

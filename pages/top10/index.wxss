@@ -1,0 +1,125 @@
+/* pages/top10/index.wxss */
+page{
+  background-color: #ffffff;
+}
+.tab{
+  overflow: hidden;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.tab .tab-col5{
+  width: calc(50% - 20px);
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 10px;
+  color: #DDDDDD;
+  font-size: 30rpx;
+  font-weight: bold;
+  float: left;
+  background-color: #1F7B3E;
+}
+
+.active{
+  background-color: #35D26A !important;
+  color: #ffffff !important;
+  /* border-bottom-left-radius: 50px; */
+}
+.active image{
+  background-color: transparent !important;
+}
+.tab .tab-col5 image{
+  width: 30px;
+  height: 30px;
+  margin: 13px auto;
+  float: left;
+}
+
+.tab_sm{
+  margin: 20px auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.tab_sm > .tab-col5{
+  width: calc(40% - 40px);
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 10px;
+  padding: 0 10px;
+  color: #666666;
+  font-size: 28rpx;
+  font-weight: bold;
+  float: left;
+}
+
+.tabList{
+  margin: 10px auto;
+  overflow: hidden;
+}
+
+.tabItem{
+  margin: 5px auto;
+  background-color: #ffffff;
+  /* border-bottom: 1px solid #f6f6f6; */
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.tabItem > .tab-col5{
+  width: calc(50% - 40px);
+  height: 60px;
+  margin: 0 10px;
+  padding: 0 10px;
+  color: #666666;
+  font-size: 28rpx;
+  font-weight: bold;
+  float: left;
+  position: relative;
+}
+.tabItem .top{
+  height: 35px;
+  width: 35px;
+  display: block;
+  margin-top: 12.5px;
+  margin-right: 10px;
+  float: left;
+}
+.tabItem .top .icon{
+  position: absolute;
+  width: 35px;
+  height: 35px;
+}
+.tabItem .top .up{
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  line-height: 29px;
+  width: 35px;
+  color: #ffffff;
+}
+.tabItem .top-text{
+  height: 35px;
+  /* width: 35px; */
+  display: block;
+  margin-top: 12.5px;
+  float: left;
+  line-height: 36px;
+  color: #000000;
+}
+
+.tabItem .tab-text{
+  color: #999999;
+  margin-top: 10px;
+}
+.tabItem .tab-num{
+  color: #333333;
+  margin-bottom: 10px;
+  font-size: 35rpx;
+  font-weight: bold;
+}
+.def{
+  line-height: 60px;
+}

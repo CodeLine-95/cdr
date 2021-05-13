@@ -1,0 +1,9 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "产品详情",
+  "navigationBarBackgroundColor": "#1F9546",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "shortcut": "/components/shortcut/shortcut"
+  }
+}

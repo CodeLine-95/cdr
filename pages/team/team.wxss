@@ -1,0 +1,89 @@
+/* pages/team/team.wxss */
+
+.tab{
+  margin: 10px auto;
+  overflow: hidden;
+}
+
+.tab .tab-col5{
+  width: calc(50% - 20px);
+  text-align: center;
+  height: 55px;
+  line-height: 55px;
+  padding: 0 10px;
+  color: #666666;
+  font-size: 38rpx;
+  font-weight: bold;
+  float: left;
+}
+
+.active{
+  background: linear-gradient(to right,#F54558,#FE6E5F);
+  color: #ffffff !important;
+  border-radius: 15px;
+}
+.active image{
+  background-color: transparent !important;
+}
+.tab .tab-col5 image{
+  width: 30px;
+  height: 30px;
+  margin: 13px auto;
+  float: left;
+}
+
+.tab_sm{
+  margin: 20px auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.tab_sm > .tab-col5{
+  width: calc(40% - 40px);
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 10px;
+  padding: 0 10px;
+  color: #666666;
+  font-size: 28rpx;
+  font-weight: bold;
+  float: left;
+}
+
+.tabList{
+  margin: 10px auto;
+  overflow: hidden;
+}
+
+.tabItem{
+  margin: 5px auto;
+  background-color: #ffffff;
+  border-bottom: 1px solid #f6f6f6;
+  overflow: hidden;
+}
+
+.tabItem > .tab-col5{
+  width: calc(50% - 40px);
+  height: 60px;
+  margin: 0 10px;
+  padding: 0 10px;
+  color: #666666;
+  font-size: 28rpx;
+  font-weight: bold;
+  float: left;
+}
+
+.tabItem .tab-text{
+  color: #999999;
+  margin-top: 10px;
+}
+.tabItem .tab-num{
+  color: #333333;
+  margin-bottom: 10px;
+  font-size: 35rpx;
+  font-weight: bold;
+}
+.def{
+  line-height: 60px;
+}

@@ -1,0 +1,72 @@
+<!--pages/integral/index.wxml-->
+<view class="container">
+  <!-- 菜单列表 -->
+  <view class="menus-list m-top20">
+    <form>
+      <button formType="button" class="btn-normal">
+        <view class="menus-item dis-flex b-f" style="border: none;">
+          <view class="menus-item__left flex-box dis-flex flex-y-center">
+            <text class="menus-item__name f-30">厂家名称</text>
+          </view>
+          <view class="menus-item__right flex-box dis-flex flex-x-end flex-y-center">
+            <text class="menus-item__name f-30">我的积分:</text>
+            <text class="menus-item__name f-30" style="color: #FF6200;font-weight: bold;">600</text>
+          </view>
+        </view>
+      </button>
+    </form>
+  </view>
+  <view class="menus-list">
+    <view style="background-color: #ffffff; font-size: 40rpx; text-align: center; height: 100rpx;line-height: 100rpx;">积分明细</view>
+    <view class="menus-list">
+      <form>
+        <button formType="submit" class="btn-normal">
+          <view class="menus-item dis-flex b-f">
+            <view class="menus-item__left flex-box dis-flex flex-y-center">
+              <text class="menus-item__name f-26" style="color: #666666;">推广所得</text>
+            </view>
+            <view class="menus-item__right flex-box dis-flex flex-x-end flex-y-center">
+              <text class="menus-item__name f-26" style="color: #FF6200;font-weight: bold;">100</text>
+            </view>
+          </view>
+        </button>
+      </form>
+      <form>
+        <button formType="submit" class="btn-normal">
+          <view class="menus-item dis-flex b-f">
+            <view class="menus-item__left flex-box dis-flex flex-y-center">
+              <text class="menus-item__name f-26" style="color: #666666;">购买产品所得</text>
+            </view>
+            <view class="menus-item__right flex-box dis-flex flex-x-end flex-y-center">
+              <text class="menus-item__name f-26" style="color: #FF6200;font-weight: bold;">100</text>
+            </view>
+          </view>
+        </button>
+      </form>
+      <form>
+        <button formType="submit" class="btn-normal">
+          <view class="menus-item dis-flex b-f">
+            <view class="menus-item__left flex-box dis-flex flex-y-center">
+              <text class="menus-item__name f-26" style="color: #666666;">门店奖励</text>
+            </view>
+            <view class="menus-item__right flex-box dis-flex flex-x-end flex-y-center">
+              <text class="menus-item__name f-26" style="color: #FF6200;font-weight: bold;">50</text>
+            </view>
+          </view>
+        </button>
+      </form>
+      <form>
+        <button formType="submit" class="btn-normal">
+          <view class="menus-item dis-flex b-f">
+            <view class="menus-item__left flex-box dis-flex flex-y-center">
+              <text class="menus-item__name f-26" style="color: #666666;">代理奖励</text>
+            </view>
+            <view class="menus-item__right flex-box dis-flex flex-x-end flex-y-center">
+              <text class="menus-item__name f-26" style="color: #FF6200;font-weight: bold;">50</text>
+            </view>
+          </view>
+        </button>
+      </form>
+    </view>
+  </view>
+</view>

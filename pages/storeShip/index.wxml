@@ -1,0 +1,36 @@
+<!--pages/memberShip/index.wxml-->
+<view class="container">
+  <view class="header">
+    <view class="total">
+      <view class="total-text">总门店数</view>
+      <view class="total-num">980</view>
+    </view>
+    <view class="bottom">
+      <view class="bottom-col {{todayActive}}" bindtap="activeClick" data-act="today">
+        <view class="bottom-text">今日增加</view>
+        <view class="bottom-num">5</view>
+      </view>
+      <view class="bottom-col {{toweekActive}}" bindtap="activeClick" data-act="toweek">
+        <view class="bottom-text">本周新增</view>
+        <view class="bottom-num">20</view>
+      </view>
+      <view class="bottom-col {{tomonthActive}}" bindtap="activeClick" data-act="tomonth">
+        <view class="bottom-text">本月新增</view>
+        <view class="bottom-num">150</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="tab">
+    <view class="tab-col">
+      <view class="tab-text tab-active">7日走势</view>
+    </view>
+    <view class="tab-col">
+      <view class="tab-text">30日走势</view>
+    </view>
+  </view>
+
+  <view class="eschart">
+    <ec-canvas id="mychart-dom-line" canvas-id="mychart-line" ec="{{ ec }}"></ec-canvas>
+  </view>
+</view>

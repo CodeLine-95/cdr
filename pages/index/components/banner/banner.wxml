@@ -1,0 +1,12 @@
+<!-- banner轮播 -->
+<view class="diy-banner">
+  <swiper autoplay="{{true}}" class="banner-box swiper-box dot-round" duration="{{true}}" circular="{{true}}" indicator-dots="{{true}}" interval="{{true}}" indicator-color="#ffffff" indicator-active-color="#000" bindchange="bindChange">
+    <navigator hover-class="none">
+      <swiper-item style="background-color: #fff;">
+        <image class="slide-image" style="width: 60%;" bindload="imagesHeight" src="/images/login_logo.png" data-id=""></image>
+      </swiper-item>
+    </navigator>
+  </swiper>
+  <!-- 顶部置灰 -->
+  <!-- <view class="linear"></view>  -->
+</view>

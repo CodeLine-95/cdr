@@ -1,0 +1,71 @@
+<!--pages/shop/shop.wxml-->
+<view class="swiper-tab">
+    <view style="width: 40%" class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">CMNT产品系列</view>
+    <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">店长推荐</view>
+    <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">厂家介绍</view>
+</view>
+
+<scroll-view bindscroll="scroll" scroll-top="{{scrollTop}}" scroll-y="true" style="position:absolute; top:55px; left:0; right:0; bottom:0;">
+  <swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">
+      <swiper-item>
+        <view class="shop-item" bindtap="shopDetail" data-id="10001">
+          <image src=""></image>
+          <text>产品名称</text>
+        </view>
+        <view class="shop-item" bindtap="shopDetail" data-id="10001">
+          <image src=""></image>
+          <text>产品名称</text>
+        </view>
+        <view class="shop-item" bindtap="shopDetail" data-id="10001">
+          <image src=""></image>
+          <text>产品名称</text>
+        </view>
+        <view class="shop-item" bindtap="shopDetail" data-id="10001">
+          <image src=""></image>
+          <text>产品名称</text>
+        </view>
+        <view class="shop-item" bindtap="shopDetail" data-id="10001">
+          <image src=""></image>
+          <text>产品名称</text>
+        </view>
+        <view class="shop-item" bindtap="shopDetail" data-id="10001">
+          <image src=""></image>
+          <text>产品名称</text>
+        </view>
+        <view class="shop-item" bindtap="shopDetail" data-id="10001">
+          <image src=""></image>
+          <text>产品名称</text>
+        </view>
+        <view class="shop-item" bindtap="shopDetail" data-id="10001">
+          <image src=""></image>
+          <text>产品名称</text>
+        </view>
+      </swiper-item>
+      <swiper-item>
+        <view class="shop-item" bindtap="shopDetail" data-id="10001">
+          <image src=""></image>
+          <text>产品名称</text>
+        </view>
+        <view class="shop-item" bindtap="shopDetail" data-id="10001">
+          <image src=""></image>
+          <text>产品名称</text>
+        </view>
+      </swiper-item>
+      <swiper-item>
+        <view class="shop-store">
+          <image src=""></image>
+          <view class="shop-store-list m-top10">
+            <view class="b-f t-c col-3 fl shop-store-btn">厂家名称</view>
+            <view class="b-f t-c col-3 fl notice-division">|</view>
+            <view class="b-f t-l col-3 fl notice-text">上海市</view>
+          </view>
+          <view class="shop-store-list m-top10" style="overflow: auto;height: auto;margin-bottom: 10px;">
+            <view class="b-f t-l col-3 shop-store-btn shop-store-desc-btn">厂家详细介绍</view>
+            <view class="b-f t-l col-3 shop-store-desc-text">
+              这里介绍厂家的详细说明，注册时间，业绩等。这里介绍厂家的详细说明，注册时间，业绩等。这里介绍厂家的详细说明，注册时间，业绩等。
+            </view>
+          </view>
+        </view>
+      </swiper-item>
+  </swiper>
+</scroll-view>

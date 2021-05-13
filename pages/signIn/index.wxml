@@ -1,0 +1,21 @@
+<!--pages/signIn/index.wxml-->
+<view style='position:fixed;top:0;bottom:0;right:0;left:0;background-color:#333333d1;display:flex;align-items:center;align-content:center;'>
+  <view class="signInList">
+    <view class="top">
+      <view class="top-icon">
+        第<text style="font-size: 60px;">3</text>天
+      </view>
+    </view>
+    <view class="center">
+      <view style="color: #F65C38;height:40px;line-height:40px;">签到得积分</view>
+      <view style="height:40px;line-height:40px;">
+        <text style="color: #666666;">连续签到</text>
+        <text style="color: #F95E2B;font-weight: bold;">7</text>
+        <text style="color: #666666;">天可领取积分</text>
+      </view>
+    </view>
+    <view class="bottom">
+      <button class="b-btn">立即签到</button>
+    </view>
+  </view>
+</view>

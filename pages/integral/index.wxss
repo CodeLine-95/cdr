@@ -1,0 +1,13 @@
+/* pages/integral/index.wxss */
+/* 菜单列表 */
+.menus-list .menus-item {
+  position: relative;
+  padding: 28rpx 28rpx;
+  border-bottom: 1rpx solid #eee;
+  
+}
+
+.menus-list .menus-item .menus-item__name {
+  color: #444;
+  margin-left: 20rpx;
+}

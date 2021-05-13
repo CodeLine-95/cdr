@@ -1,0 +1,105 @@
+<!--pages/top10/index.wxml-->
+<view class="container" style="overflow: hidden;">
+  <!-- tab切换 -->
+  <view class="tab">
+    <view class="tab-col5 {{topClass}}" bindtap="tabChange" data-act="top">
+      <text>月销售排名</text>
+    </view>
+    <view class="tab-col5 {{fansClass}}" bindtap="tabChange" data-act="fans">
+      <text>月粉丝数排名</text>
+    </view>
+  </view>
+  <view class="tabList">
+    <view class="tabItem">
+      <view class="fl t-l tab-col5 def">
+        <view class="top">
+          <!-- <image class="icon" src="/images/icon/top3.png"></image> -->
+          <!-- <view class="up" style="color: #000000;line-height:35px;">4</view> -->
+        </view>
+        <text class="top-text" style="color:#999999;">{{tabItem[0]}}</text>
+      </view>
+      <view class="fr t-r tab-col5 def num">
+        <text class="tab-text">{{tabItem[1]}}</text>
+      </view>
+    </view>
+    
+    <view class="tabItem">
+      <view class="fl t-l tab-col5 def">
+        <view class="top">
+          <image class="icon" src="/images/icon/top1.png"></image>
+          <view class="up">1</view>
+        </view>
+        <text class="top-text">厂家名一</text>
+      </view>
+      <view class="fr t-r tab-col5 num">
+        <view class="top-text fr">180</view>
+      </view>
+    </view>
+
+    <view class="tabItem">
+      <view class="fl t-l tab-col5 def">
+        <view class="top">
+          <image class="icon" src="/images/icon/top2.png"></image>
+          <view class="up">2</view>
+        </view>
+        <text class="top-text">厂家名一</text>
+      </view>
+      <view class="fr t-r tab-col5 num">
+        <view class="top-text fr">180</view>
+      </view>
+    </view>
+
+    <view class="tabItem">
+      <view class="fl t-l tab-col5 def">
+        <view class="top">
+          <image class="icon" src="/images/icon/top3.png"></image>
+          <view class="up">3</view>
+        </view>
+        <text class="top-text">厂家名一</text>
+      </view>
+      <view class="fr t-r tab-col5 num">
+        <view class="top-text fr">180</view>
+      </view>
+    </view>
+
+    <view class="tabItem">
+      <view class="fl t-l tab-col5 def">
+        <view class="top">
+          <!-- <image class="icon" src="/images/icon/top3.png"></image> -->
+          <view class="up" style="color: #000000;line-height:35px;">4</view>
+        </view>
+        <text class="top-text">厂家名一</text>
+      </view>
+      <view class="fr t-r tab-col5 num">
+        <view class="top-text fr">180</view>
+      </view>
+    </view>
+
+    <view class="tabItem">
+      <view class="fl t-l tab-col5 def">
+        <view class="top">
+          <!-- <image class="icon" src="/images/icon/top3.png"></image> -->
+          <view class="up" style="color: #000000;line-height:35px;">4</view>
+        </view>
+        <text class="top-text">厂家名一</text>
+      </view>
+      <view class="fr t-r tab-col5 num">
+        <view class="top-text fr">180</view>
+      </view>
+    </view>
+
+    <view class="tabItem">
+      <view class="fl t-l tab-col5 def">
+        <view class="top">
+          <!-- <image class="icon" src="/images/icon/top3.png"></image> -->
+          <view class="up" style="color: #000000;line-height:35px;">4</view>
+        </view>
+        <text class="top-text">厂家名一</text>
+      </view>
+      <view class="fr t-r tab-col5 num">
+        <view class="top-text fr">180</view>
+      </view>
+    </view>
+  </view>
+</view>
+

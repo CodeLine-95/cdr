@@ -1,0 +1,36 @@
+<view class="container">
+  <view class="wechatapp">
+    <image class="header" src="/images/login_logo.png"></image>
+  </view>
+  <view class="login-btn">
+    <button class="btn-normal" hover-class="none" plain open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">获取微信手机号登录</button>
+  </view>
+  <view class="new-user-login-btn">
+    <button class="btn-normal" hover-class="none" plain catchtap="newUserLogin">新用户登录</button>
+  </view>
+
+  <view class="agreement-login-btn">
+    <view class="agreement">
+      <view class="agreement-radio">
+        <radio-group bindchange="agreementChange">
+          <radio value="1"></radio>
+        </radio-group>
+      </view>
+      <view class="agreement-text">
+        <text class="agreement-text-content">同意已阅读</text>
+        <text class="agreement-text-link">《用户协议》</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="other-login-btn">
+    <view class="other-col">
+      <image class="other-img" src="/images/icon/login_tel.png"></image>
+      <view class="other-text">其他手机</view>
+    </view>
+    <view class="other-col">
+      <image class="other-img" src="/images/icon/login_pass.png"></image>
+      <view class="other-text">账号密码</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,35 @@
+/* pages/level/index.wxss */
+page{
+  background-color: #ffffff;
+}
+.tab{
+  background-color: #ffffff;
+  width: 100%;
+  overflow: hidden;
+}
+.b-s{
+  /* box-shadow: #E5E5E5 0px 0px 3px 2px; */
+  box-shadow:0px 2px 0px 2px #E5E5E5;
+}
+.tab-header{
+  font-size: 26rpx;
+  color: #333333;
+  margin: 0 10px;
+}
+
+.tab-col{
+  width: 20%;
+  height: 80rpx;
+  line-height: 80rpx;
+  display: inline-block;
+  text-align: center;
+}
+
+.f-c{
+  color: #666666;
+  font-size: 24rpx;
+}
+
+.border{
+  border-bottom: 1px solid #EEEEEE;
+}

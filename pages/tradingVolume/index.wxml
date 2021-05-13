@@ -1,0 +1,78 @@
+<!--pages/tradingVolume/index.wxml-->
+<view class="container">
+  <view class="bg">
+    <view class="header">
+      <view class="fl header-c">
+        <picker bindchange="storeChange" value="{{index}}" range="{{stores}}">
+          <view class="picker" style="padding: 5px !important;">
+            <view class="text">{{index > 0 ? stores[index] : '选择厂区'}}<text class="kailong"></text></view>
+          </view>
+        </picker>
+      </view>
+      <view class="fr header-c" style="padding: 5px 15px;">总销售额 100万</view>
+    </view>
+
+    <view class="eschart">
+      <ec-canvas id="mychart-dom-line" canvas-id="mychart-line" ec="{{ ec }}"></ec-canvas>
+    </view>
+
+    <view class="tab">
+      <view class="tab-col" catchtap="tabValue" data-type="today" style="width: {{todayWidth}}%">
+        <view class="tab-text {{todayActive}}">日{{todayActive?'数据':''}}</view>
+      </view>
+      <view class="tab-col" catchtap="tabValue" data-type="week" style="width: {{weekWidth}}%">
+        <view class="tab-text {{weekActive}}">周{{weekActive?'数据':''}}</view>
+      </view>
+      <view class="tab-col" catchtap="tabValue" data-type="month" style="width: {{monthWidth}}%">
+        <view class="tab-text {{monthActive}}">月{{monthActive?'数据':''}}</view>
+      </view>
+      <view class="tab-col" catchtap="tabValue" data-type="year" style="width: {{yearWidth}}%">
+        <view class="tab-text {{yearActive}}">年{{yearActive?'数据':''}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="data">
+    <view class="data-tab tr">
+      <view class="data-tab-col" bindtap="dataTabValue" data-type="today">
+        <view class="data-tab-text data-tab-active">日数据</view>
+      </view>
+      <view class="data-tab-col" bindtap="dataTabValue" data-type="week">
+        <view class="data-tab-text">周数据</view>
+      </view>
+      <view class="data-tab-col" bindtap="dataTabValue" data-type="month">
+        <view class="data-tab-text">月数据</view>
+      </view>
+      <view class="data-tab-col" bindtap="dataTabValue" data-type="year">
+        <view class="data-tab-text">年数据</view>
+      </view>
+    </view>
+    <view class="text-tab">
+      <view class="text-tab-col t-l">
+        <view class="text-tab-text">2021年4月</view> 
+        <view class="text-tab-text">250个交易</view>
+      </view>
+      <view class="text-tab-col t-r">
+        <view class="text-tab-text-r">+15500</view> 
+      </view>
+    </view>
+    <view class="text-tab">
+      <view class="text-tab-col t-l">
+        <view class="text-tab-text">2021年4月</view> 
+        <view class="text-tab-text">250个交易</view>
+      </view>
+      <view class="text-tab-col t-r">
+        <view class="text-tab-text-r">+15500</view> 
+      </view>
+    </view>
+    <view class="text-tab">
+      <view class="text-tab-col t-l">
+        <view class="text-tab-text">2021年4月</view> 
+        <view class="text-tab-text">250个交易</view>
+      </view>
+      <view class="text-tab-col t-r">
+        <view class="text-tab-text-r">+15500</view> 
+      </view>
+    </view>
+  </view>
+</view>
+

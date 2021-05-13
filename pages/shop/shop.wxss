@@ -1,0 +1,120 @@
+/* pages/shop/shop.wxss */
+.swiper-tab{
+  width: calc(100% - 20px);
+  text-align: center;
+  line-height: 80rpx;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.swiper-tab-list{  
+  font-size: 30rpx;
+  display: inline-block;
+  width: 25%;
+  color: #777777;
+}
+.on{ 
+  /* color: blue;
+  border-bottom: 3rpx solid blue; */
+  font-size: 40rpx;
+  font-weight: bold;
+  line-height: 80rpx;
+  color: #333333;
+}
+
+.swiper-box{
+   display: block; 
+   height: 100%; 
+   width: calc(100% - 20px); 
+   margin: 0 10px;
+   /* overflow: hidden;  */
+}
+.swiper-box swiper-item{
+  /* margin: auto 10px; */
+  text-align: center;
+  overflow-y: auto !important;
+}
+/* .swiper-box view{
+  text-align: center;
+} */
+
+.shop-item{
+  width: 50%;
+  height: 160px;
+  /* margin: 5px; */
+  /* background-color: #ffffff; */
+  display: inline-block;
+}
+.shop-item image{
+  background-color: #6DC0FB;
+  border-radius: 10px;
+  width: calc(100% - 10px);
+  margin: 5px;
+  height: calc(100% - 50px);
+  display: block;
+}
+.shop-item text{
+  height: 30px;
+  line-height: 30px;
+  font-size: 28rpx;
+  color: #333333;
+  text-align: left;
+  display: block;
+  padding: 0 10px;
+}
+
+.shop-store{
+  background-color: #fff;
+}
+.shop-store image{
+  height: 450px;
+  background-color: #333333;
+  width: 100%;
+}
+.shop-store-list{
+  height: 32px;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 0 10px;
+}
+.shop-store-btn{
+  /* background-color: #F04546; */
+  color: #333 !important;
+  /* border-radius: 5px; */
+  margin: 5px 0 !important;
+  font-size: 30rpx;
+  height: 22px;
+  line-height: 22px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.notice-division{
+  margin: 5px !important;
+}
+.notice-text{
+  color: #999999 !important;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow:ellipsis;
+  width: calc(100% - 120px);
+  font-size: 24rpx;
+  text-align: left !important;
+}
+.notice-text,.shop-store-btn,.notice-division{
+  margin: 5px auto;
+  height: 22px;
+  line-height: 22px;
+  color: #BFBFBF;
+}
+
+.shop-store-desc-btn{
+  font-size: 26rpx;
+  border-left: 3px solid #3C88FA;
+}
+.shop-store-desc-text{
+  color: #999999 !important;
+  font-size: 24rpx;
+  text-align: left !important;
+  margin: 10px;
+}

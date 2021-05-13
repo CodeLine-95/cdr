@@ -1,0 +1,75 @@
+<!--pages/capital/index.wxml-->
+<view class="container">
+  <view class="tab">
+    <view class="tab-my">
+      <view class="tab-p">0.00</view>
+      <view class="tab-t">资产总额（元）<text class="iconfont icon-xiangyoujiantou f-26"></text></view>
+      <view class="tab-c">
+        <view class="tab-col">
+          <view class="col-p">0.00</view>
+          <view class="col-t" style="font-size: 28rpx;">冻结资金（元）</view>
+        </view>
+        <view class="tab-br"></view>
+        <view class="tab-col">
+          <view class="col-p">0.00</view>
+          <view class="col-t" style="font-size: 28rpx;">可用余额（元）</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="menus-list m-top20">
+    <form bindsubmit="onTargetMenus" data-url="pages/level/index">
+      <button formType="submit" class="btn-normal">
+        <view class="menus-item dis-flex b-f">
+          <view class="menus-item__left flex-box dis-flex flex-y-center">
+            <text class="iconfont icon-map f-34"></text>
+            <text class="menus-item__name f-30">账单明细</text>
+          </view>
+          <view class="menus-item__right flex-box dis-flex flex-x-end flex-y-center">
+            <text class="iconfont icon-xiangyoujiantou f-26 col-7"></text>
+          </view>
+        </view>
+      </button>
+    </form>
+    <form bindsubmit="onTargetMenus" data-url="pages/level/index">
+      <button formType="submit" class="btn-normal">
+        <view class="menus-item dis-flex b-f">
+          <view class="menus-item__left flex-box dis-flex flex-y-center">
+            <text class="iconfont icon-map f-34"></text>
+            <text class="menus-item__name f-30">提现</text>
+          </view>
+          <view class="menus-item__right flex-box dis-flex flex-x-end flex-y-center">
+            <text class="iconfont icon-xiangyoujiantou f-26 col-7"></text>
+          </view>
+        </view>
+      </button>
+    </form>
+    <form bindsubmit="onTargetMenus" data-url="pages/level/index">
+      <button formType="submit" class="btn-normal">
+        <view class="menus-item dis-flex b-f">
+          <view class="menus-item__left flex-box dis-flex flex-y-center">
+            <text class="iconfont icon-map f-34"></text>
+            <text class="menus-item__name f-30">充值</text>
+          </view>
+          <view class="menus-item__right flex-box dis-flex flex-x-end flex-y-center">
+            <text class="iconfont icon-xiangyoujiantou f-26 col-7"></text>
+          </view>
+        </view>
+      </button>
+    </form>
+    <form bindsubmit="onTargetMenus" data-url="pages/level/index">
+      <button formType="submit" class="btn-normal">
+        <view class="menus-item dis-flex b-f">
+          <view class="menus-item__left flex-box dis-flex flex-y-center">
+            <text class="iconfont icon-map f-34"></text>
+            <text class="menus-item__name f-30">转账</text>
+          </view>
+          <view class="menus-item__right flex-box dis-flex flex-x-end flex-y-center">
+            <text class="iconfont icon-xiangyoujiantou f-26 col-7"></text>
+          </view>
+        </view>
+      </button>
+    </form>
+  </view>
+</view>
+

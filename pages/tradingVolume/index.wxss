@@ -1,0 +1,163 @@
+/* pages/tradingVolume/index.wxss */
+page{
+  background-color: rgba(61, 188, 103, 1);
+  overflow: hidden;
+}
+.bg{
+  position: relative;
+}
+.header{
+  margin: 0 auto;
+  padding: 10px;
+  overflow: hidden;
+  background-color: rgba(61, 188, 103, 1);
+  height: 32px;
+}
+.header-c{
+  text-align: center;
+  /* height: 40px; */
+  color: #fff;
+  font-weight: bold;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.tab{
+  position: absolute;
+  bottom: -8px;
+  width: 100%;
+  z-index: 1000;
+  height: 50px;
+  background-color: rgba(61, 188, 103, 1);
+  /* box-shadow: 0px 0px 50px rgba(35, 153, 245, 0.15); */
+}
+
+.tab-col{
+  width: 20%;
+  float: left;
+  text-align: center;
+  color: #333;
+  line-height: 50px;
+}
+.tab-text{
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.tab-active{
+  color: #37A6FF;
+  border-bottom: 2px solid #37A6FF;
+  width: calc(100% - 40px);
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  color: rgba(0, 149, 255, 1);
+}
+.eschart{
+  height: 300px;
+  background-color: rgba(61, 188, 103, 1);
+  overflow: hidden;
+}
+
+.picker{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.picker .text{
+  background-color: #ffffff;
+  color: rgba(61, 188, 103, 1);
+  padding: 0 20px;
+  display: inline;
+  position: relative;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+
+.kailong{
+  position: absolute;
+	width:7px;
+  height:7px;
+  line-height: 40px;
+	border-top: 2px solid rgba(177, 177, 177, 1);
+  border-right: 2px solid rgba(177, 177, 177, 1);
+  transform: rotate(45deg);
+  top: 30%;
+  right: 10px;
+}
+
+.data{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 48%;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.data-tab{
+  height: 50px;
+  background-color: #fff;
+}
+
+.tr{
+  border-bottom: 1px solid rgba(234, 234, 234, 1);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.data-tab-col{
+  width: 25%;
+  float: left;
+  text-align: center;
+  color: #333;
+  line-height: 50px;
+}
+.data-tab-text{
+  display: inline-block;
+  height: 40px;
+  line-height: 35px;
+  
+}
+.data-tab-active{
+  color: #37A6FF;
+  border-bottom: 2px solid #37A6FF;
+}
+
+.text-tab{
+  height: 50px;
+  background-color: #fff;
+  /* margin: 0 auto; */
+  margin: 0 10px;
+  padding: 20px 0;
+  border-bottom: 2px solid rgba(216, 216, 216, 1);
+}
+.text-tab-col{
+  width: 50%;
+  float: left;
+  color: #333;
+  line-height: 50px;
+  vertical-align: middle;
+}
+.text-tab-text{
+  height: 25px;
+  line-height: 25px;
+  font-weight: bold;
+}
+.text-tab-text-r{
+  color: rgba(255, 45, 45, 1);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 50px;
+}

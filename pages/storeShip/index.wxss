@@ -1,0 +1,65 @@
+/* pages/memberShip/index.wxss */
+.header{
+  margin: 0 auto;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #1F9546;
+  height: 130px;
+}
+.total{
+  text-align: center;
+  /* height: 40px; */
+  color: #fff;
+}
+.total-text{
+  font-size: 14px;
+}
+.total-num{
+  font-size: 25px;
+  font-weight: bold;
+}
+.bottom{
+  color: #fff;
+  padding: 0 10px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.bottom-col{
+  width: 33.3333333%;
+  float: left;
+  text-align: center;
+}
+
+.active{
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.tab{
+  height: 50px;
+  background-color: #fff;
+  box-shadow: 0px 0px 50px rgba(35, 153, 245, 0.15);
+}
+
+.tab-col{
+  width: 50%;
+  float: left;
+  text-align: center;
+  color: #333;
+  line-height: 50px;
+}
+.tab-text{
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  
+}
+.tab-active{
+  color: #37A6FF;
+  border-bottom: 2px solid #37A6FF;
+}
+.eschart{
+  height: 300px;
+  /* background-color: #fff; */
+  overflow: hidden;
+}

@@ -1,0 +1,31 @@
+<!--pages/storeAdd/index2.wxml-->
+<view class="container">
+  <view class="list">
+    <form bindsubmit="onTarget" data-url="pages/storeAdd/index2">
+      <view style="margin-bottom: 10px;overflow: hidden;">
+        <view class="listItem">
+          <view style="color: #6C6C6C; margin: 10px auto;">请上传营业执照</view>
+          <view style="background-color: #BDBDBD; height: 100px;position: relative;">
+            <image src="" class="img"></image>
+            <image src="" class="up"></image>
+          </view>
+        </view>
+        <view class="listItem">
+          <view style="color: #6C6C6C;  margin: 10px auto;">请上传收款码</view>
+          <view style="background-color: #BDBDBD; height: 100px;position: relative;">
+            <image src="" class="img"></image>
+            <image src="" class="up"></image>
+          </view>
+        </view>
+      </view>
+
+      <view class="remark-text">
+        <text style="color: #6C6C6C;">拍摄时请确保图片</text>
+        <text style="color: #EF8139;">边框完整  字体清晰</text>
+      </view>
+
+      <button formType="submit" class="btn-sub">确定上传</button>
+    </form>
+  </view>
+</view>
+

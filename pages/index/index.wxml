@@ -1,0 +1,111 @@
+<view class="container">
+
+  <scroll-view bindscroll="scroll" scroll-top="{{scrollTop}}" scroll-y="true" style="position:absolute; top:0; left:0; right:0; bottom:0;">
+    <!-- 幻灯片 -->
+    <include src="components/banner/banner.wxml" />
+    <!-- 公告 -->
+    <view class="title-notice">
+      <view class="notice-left">
+        <text class="notice-btn">公告</text>
+        <text class="notice-hr">|</text>
+      </view>
+      <view class="notice-right" catchtap="noticeShow">这是一条公告内容，这是一条公告内容，这是一</view>
+    </view>
+    <!-- 工具栏 -->
+    <view class="title-tools">
+      <view class="tools-col" data-url="pages/top10/index" catchtap="jumpTools">
+        <image class="tools-image" src="/images/tool/top.png"></image>
+        <view class="tools-text">top10</view>
+      </view>
+      <view class="tools-col" data-url="pages/storeAdd/index1" catchtap="jumpTools">
+        <image class="tools-image" src="/images/tool/storeApp.png"></image>
+        <view class="tools-text">门店申请</view>
+      </view>
+      <view class="tools-col" data-url="pages/tradingVolume/index" catchtap="jumpTools">
+        <image class="tools-image" src="/images/tool/tradingVolume.png"></image>
+        <view class="tools-text">交易量</view>
+      </view>
+      <view class="tools-col" data-url="pages/integralCell/index" catchtap="jumpTools">
+        <image class="tools-image" src="/images/tool/IntegralCell.png"></image>
+        <view class="tools-text">积分池</view>
+      </view>
+      <view class="tools-col">
+        <image class="tools-image" src="/images/tool/live.png"></image>
+        <view class="tools-text">直播</view>
+      </view>
+      <view class="tools-col" data-url="pages/storeShip/index" catchtap="jumpTools">
+        <image class="tools-image" src="/images/tool/newStore.png"></image>
+        <view class="tools-text">新增门店</view>
+      </view>
+      <view class="tools-col" data-url="pages/memberShip/index" catchtap="jumpTools">
+        <image class="tools-image" src="/images/tool/members.png"></image>
+        <view class="tools-text">新增会员</view>
+      </view>
+      <view class="tools-col" data-url="pages/signIn/index" catchtap="jumpTools">
+        <image class="tools-image" src="/images/tool/signIn.png"></image>
+        <view class="tools-text">签到</view>
+      </view>
+    </view>
+    <!-- 品牌指数 -->
+    <view class="title-brand">
+      <view class="brand-list">
+        <view class="brand-col f-w t-l">厂家名</view>
+        <view class="brand-col f-w t-c">品牌指数</view>
+        <view class="brand-col f-w t-r">涨幅</view>
+      </view>
+      <view class="brand-text">
+        <view class="brand-col f-c t-l">厂家一</view>
+        <view class="brand-col f-c t-c">1080</view>
+        <view class="brand-col f-c t-r c-r">5.10%</view>
+      </view>
+      <view class="brand-text">
+        <view class="brand-col f-c t-l">厂家一</view>
+        <view class="brand-col f-c t-c">1080</view>
+        <view class="brand-col f-c t-r c-r">5.10%</view>
+      </view>
+      <view class="brand-text">
+        <view class="brand-col f-c t-l">厂家一</view>
+        <view class="brand-col f-c t-c">1080</view>
+        <view class="brand-col f-c t-r c-g">-5.10%</view>
+      </view>
+      <view class="brand-text">
+        <view class="brand-col f-c t-l">厂家一</view>
+        <view class="brand-col f-c t-c">1080</view>
+        <view class="brand-col f-c t-r c-g">-5.10%</view>
+      </view>
+      <view class="brand-text">
+        <view class="brand-col f-c t-l">厂家一</view>
+        <view class="brand-col f-c t-c">1080</view>
+        <view class="brand-col f-c t-r c-r">5.10%</view>
+      </view>
+      <view class="brand-text">
+        <view class="brand-col f-c t-l">厂家一</view>
+        <view class="brand-col f-c t-c">1080</view>
+        <view class="brand-col f-c t-r c-r">5.10%</view>
+      </view>
+      <view class="brand-text">
+        <view class="brand-col f-c t-l">厂家一</view>
+        <view class="brand-col f-c t-c">1080</view>
+        <view class="brand-col f-c t-r c-g">-5.10%</view>
+      </view>
+      <view class="brand-text">
+        <view class="brand-col f-c t-l">厂家一</view>
+        <view class="brand-col f-c t-c">1080</view>
+        <view class="brand-col f-c t-r c-g">-5.10%</view>
+      </view>
+      <view class="brand-text">
+        <view class="brand-col f-c t-l">厂家一</view>
+        <view class="brand-col f-c t-c">1080</view>
+        <view class="brand-col f-c t-r c-g">-5.10%</view>
+      </view>
+
+      <view class="brand-more f-w">查看更多></view>
+    </view>
+  </scroll-view>
+
+  <!-- 返回顶部 -->
+  <view bindtap="goTop" class="widget-goTop" wx:if="{{floorstatus}}">
+    <text class="iconfont icon-fanhuidingbu"></text>
+  </view>
+
+</view>

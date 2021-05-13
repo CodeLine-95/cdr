@@ -1,0 +1,44 @@
+/* pages/signIn/index.wxss */
+.signInList{
+  height: 400px;
+  width: calc(100% - 40px);
+  margin: 0 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.top{
+  height: 150px;
+  background-color: #FA6E46;
+  border-radius: 10px;
+  line-height: 150px;
+}
+.top-icon{
+  background-color: #FF9669;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 26%;
+  left: 36%;
+  border-radius: 250px;
+  line-height: 100px;
+  font-weight: bold;
+  font-size: 50rpx;
+  color: #fff; 
+}
+.center{
+  margin-top: 30px;
+  height: 150px;
+}
+.bottom{
+  height: 70px;
+  line-height: 70px;
+}
+.b-btn{
+  background-color: #FA6E46;
+  width: 50%;
+  margin: 0 auto;
+  color: #ffffff;
+  border-radius: 30px;
+}

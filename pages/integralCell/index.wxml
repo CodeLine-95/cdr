@@ -1,0 +1,35 @@
+<!--pages/IntegralCell/index.wxml-->
+<view class="container">
+  <view class="bg">
+    <view class="header">
+      <view class="fl header-c">
+        <picker bindchange="storeChange" value="{{index}}" range="{{stores}}">
+          <view class="picker" style="padding: 5px !important;">
+            <view class="text">{{index > 0 ? stores[index] : '选择厂家'}}<text class="kailong"></text></view>
+          </view>
+        </picker>
+      </view>
+      <view class="fr header-c" style="padding: 5px 15px;">积分池积分：80万</view>
+    </view>
+    <view class="title">积分明细</view>
+    <view class="list">
+      <view class="item">
+        <view class="item-text fl">推广所得</view>
+        <view class="item-num fr">1000</view>
+      </view>
+      <view class="item">
+        <view class="item-text fl">够买产品所得</view>
+        <view class="item-num fr">1000</view>
+      </view>
+      <view class="item">
+        <view class="item-text fl">门店奖励</view>
+        <view class="item-num fr">1000</view>
+      </view>
+      <view class="item">
+        <view class="item-text fl">代理奖励</view>
+        <view class="item-num fr">1000</view>
+      </view>
+    </view>
+  </view>
+</view>
+

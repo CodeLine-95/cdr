@@ -1,0 +1,116 @@
+page {
+  background: #fff;
+  font-size: 32rpx;
+}
+
+.container {
+  padding: 0 60rpx;
+}
+
+.wechatapp {
+  padding: 80rpx 0 48rpx;
+  text-align: center;
+}
+
+.wechatapp .header {
+  display: block;
+  width: 70%;
+  border: 2px solid #fff;
+  margin: 0rpx auto 0;
+  overflow: hidden;
+}
+
+.auth-title {
+  color: #585858;
+  font-size: 34rpx;
+  margin-bottom: 40rpx;
+}
+
+.auth-subtitle {
+  color: #888;
+  margin-bottom: 88rpx;
+  font-size: 28rpx;
+}
+
+.login-btn {
+  padding: 0 100rpx;
+  font-weight: bold;
+}
+
+.login-btn button {
+  height: 88rpx;
+  line-height: 88rpx;
+  background: #04be01;
+  color: #fff;
+  font-size: 30rpx;
+  border-radius: 999rpx;
+  text-align: center;
+  border: none !important;
+}
+
+.new-user-login-btn, .agreement-login-btn, .other-login-btn {
+  margin-top: 50rpx;
+  padding: 0 100rpx;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.new-user-login-btn button {
+  height: 88rpx;
+  line-height: 88rpx;
+  background: #fff;
+  color: rgba(51, 51, 51, 1);
+  border: 1px solid rgba(153, 153, 153, 0.4);
+  font-size: 30rpx;
+  border-radius: 999rpx;
+  text-align: center;
+}
+
+.agreement-login-btn{
+  margin-top: 100rpx;
+}
+
+.agreement{
+  text-align: center;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.agreement-radio, .agreement-text{
+  display: inline-block;
+}
+
+.agreement-radio radio{
+  transform:scale(0.6);
+}
+.agreement-text-content{
+  color: rgba(153, 153, 153, 1);
+}
+.agreement-text-link{
+  color: rgba(255, 14, 14, 1);
+}
+
+.other-col{
+  width: 50%;
+  float: left;
+  text-align: center;
+  overflow: hidden;
+}
+.other-img{
+  display: block;
+  width: 25px;
+  height: 25px;
+  border: 2px solid rgba(153, 153, 153, 0.4);
+  margin: 0rpx auto 0;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 10px;
+}
+.other-text{
+  margin-top: 10px;
+  color: rgba(153, 153, 153, 1);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+

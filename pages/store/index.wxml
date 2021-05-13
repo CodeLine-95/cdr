@@ -1,0 +1,302 @@
+<!--pages/store/index.wxml-->
+<view class="list">
+  <view class="title">
+    <view class="title-item">门店总数：<text style="color:#FF861B">980</text></view>
+    <view class="title-item">总会员数：<text style="color:#FF861B">2500</text></view>
+  </view>
+  <view class="center">
+    <view class="center-index">
+      <view class="center-item fl">
+        <view class="item-l">新疆</view>
+        <view class="item-r">
+          <view>门店数:500</view>
+          <view>会员数:1000</view>
+        </view>
+      </view>
+      <view class="center-item">
+        <view class="item-l">新疆</view>
+        <view class="item-r">
+          <view>门店数:500</view>
+          <view>会员数:1000</view>
+        </view>
+      </view>
+      <!-- <view class="center-item">
+        <view class="item-l">新疆</view>
+        <view class="item-r">
+          <view>门店数:500</view>
+          <view>会员数:1000</view>
+        </view>
+      </view> -->
+    </view>
+
+    <view class="center-index">
+      <view class="center-item fl">
+        <view class="item-l">新疆</view>
+        <view class="item-r">
+          <view>门店数:500</view>
+          <view>会员数:1000</view>
+        </view>
+      </view>
+      <view class="center-item ">
+        <view class="item-l">新疆</view>
+        <view class="item-r">
+          <view>门店数:500</view>
+          <view>会员数:1000</view>
+        </view>
+      </view>
+      <view class="center-item fr">
+        <view class="item-l">新疆</view>
+        <view class="item-r">
+          <view>门店数:500</view>
+          <view>会员数:1000</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="center-index">
+      <view class="center-item fl">
+        <view class="item-l">新疆</view>
+        <view class="item-r">
+          <view>门店数:500</view>
+          <view>会员数:1000</view>
+        </view>
+      </view>
+      <view class="center-item ">
+        <view class="item-l">新疆</view>
+        <view class="item-r">
+          <view>门店数:500</view>
+          <view>会员数:1000</view>
+        </view>
+      </view>
+      <view class="center-item fr">
+        <view class="item-l">新疆</view>
+        <view class="item-r">
+          <view>门店数:500</view>
+          <view>会员数:1000</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="center-index">
+      <view class="center-item fl">
+        <view class="item-l">新疆</view>
+        <view class="item-r">
+          <view>门店数:500</view>
+          <view>会员数:1000</view>
+        </view>
+      </view>
+
+      <view class="center-item fl">
+        <view class="item-l">新疆</view>
+        <view class="item-r">
+          <view>门店数:500</view>
+          <view>会员数:1000</view>
+        </view>
+      </view>
+
+      <view class="center-item fr">
+        <view class="item-l">新疆</view>
+        <view class="item-r">
+          <view>门店数:500</view>
+          <view>会员数:1000</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="center-index">
+      <view class="center-item fl">
+        <view class="item-l">新疆</view>
+        <view class="item-r">
+          <view>门店数:500</view>
+          <view>会员数:1000</view>
+        </view>
+      </view>
+      <view class="center-item" style="background-color: transparent;">
+        
+      </view>
+      <view class="center-item fr">
+        <view class="item-l">新疆</view>
+        <view class="item-r">
+          <view>门店数:500</view>
+          <view>会员数:1000</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="center-index">
+      <view class="center-item fl">
+        <view class="item-l">新疆</view>
+        <view class="item-r">
+          <view>门店数:500</view>
+          <view>会员数:1000</view>
+        </view>
+      </view>
+      <view class="center-item" style="background-color: transparent;">
+        
+      </view>
+      <view class="center-item fr">
+        <view class="item-l">新疆</view>
+        <view class="item-r">
+          <view>门店数:500</view>
+          <view>会员数:1000</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="center-index">
+      <view class="center-item fl">
+        <view class="item-l">新疆</view>
+        <view class="item-r">
+          <view>门店数:500</view>
+          <view>会员数:1000</view>
+        </view>
+      </view>
+      <view class="center-item" style="background-color: transparent;">
+        
+      </view>
+      <view class="center-item fr">
+        <view class="item-l">新疆</view>
+        <view class="item-r">
+          <view>门店数:500</view>
+          <view>会员数:1000</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="center-index">
+      <view class="center-item fl">
+        <view class="item-l">新疆</view>
+        <view class="item-r">
+          <view>门店数:500</view>
+          <view>会员数:1000</view>
+        </view>
+      </view>
+      <view class="center-item">
+        <view class="item-l">新疆</view>
+        <view class="item-r">
+          <view>门店数:500</view>
+          <view>会员数:1000</view>
+        </view>
+      </view>
+      <view class="center-item fr">
+        <view class="item-l">新疆</view>
+        <view class="item-r">
+          <view>门店数:500</view>
+          <view>会员数:1000</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="center-index">
+      <view class="center-item fl">
+        <view class="item-l">新疆</view>
+        <view class="item-r">
+          <view>门店数:500</view>
+          <view>会员数:1000</view>
+        </view>
+      </view>
+      <view class="center-item">
+        <view class="item-l">新疆</view>
+        <view class="item-r">
+          <view>门店数:500</view>
+          <view>会员数:1000</view>
+        </view>
+      </view>
+      <view class="center-item fr">
+        <view class="item-l">新疆</view>
+        <view class="item-r">
+          <view>门店数:500</view>
+          <view>会员数:1000</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="center-index">
+      <view class="center-item fl">
+        <view class="item-l">新疆</view>
+        <view class="item-r">
+          <view>门店数:500</view>
+          <view>会员数:1000</view>
+        </view>
+      </view>
+      <view class="center-item">
+        <view class="item-l">新疆</view>
+        <view class="item-r">
+          <view>门店数:500</view>
+          <view>会员数:1000</view>
+        </view>
+      </view>
+      <view class="center-item fr">
+        <view class="item-l">新疆</view>
+        <view class="item-r">
+          <view>门店数:500</view>
+          <view>会员数:1000</view>
+        </view>
+      </view>
+    </view>
+
+  </view>
+</view>
+
+<view class="list-s">
+  <view class="col3">
+    <picker bindchange="cityChange" value="{{index}}" range="{{citys}}">
+      <view class="picker">
+        <view class="text">{{citys[index]}}<text class="kailong"></text></view>
+      </view>
+    </picker>
+  </view>
+  <view class="col3">省份门店数：<text style="color: #FF861B">52</text></view>
+  <view class="col3">省份会员数：<text style="color: #FF861B">1500</text></view>
+</view>
+
+<view class="tab b-s">
+  <view class="tab-header border">
+    <view class="tab-col f-w">城市</view>
+    <view class="tab-col f-w">门店数</view>
+    <view class="tab-col f-w">会员数</view>
+    <view class="tab-col f-w">门店布局</view>
+  </view>
+</view>
+<scroll-view bindscroll="scroll" scroll-top="{{scrollTop}}" scroll-y="true">
+  <view class="tab border">
+    <view class="tab-header">
+      <view class="tab-col f-c">苏州</view>
+      <view class="tab-col f-c">苏州第一门店</view>
+      <view class="tab-col f-c">600</view>
+      <view class="tab-col f-c" bindtap="linkLevel" data-id="" style="color: #FDA86F;">查看</view> 
+    </view>
+  </view>
+  <view class="tab border">
+    <view class="tab-header">
+      <view class="tab-col f-c">苏州</view>
+      <view class="tab-col f-c">苏州第一门店</view>
+      <view class="tab-col f-c">600</view>
+      <view class="tab-col f-c" bindtap="linkLevel" data-id="" style="color: #FDA86F;">查看</view> 
+    </view>
+  </view>
+  <view class="tab border">
+    <view class="tab-header">
+      <view class="tab-col f-c">苏州</view>
+      <view class="tab-col f-c">苏州第一门店</view>
+      <view class="tab-col f-c">600</view>
+      <view class="tab-col f-c" bindtap="linkLevel" data-id="" style="color: #FDA86F;">查看</view> 
+    </view>
+  </view>
+  <view class="tab border">
+    <view class="tab-header">
+      <view class="tab-col f-c">苏州</view>
+      <view class="tab-col f-c">苏州第一门店</view>
+      <view class="tab-col f-c">600</view>
+      <view class="tab-col f-c" bindtap="linkLevel" data-id="" style="color: #FDA86F;">查看</view> 
+    </view>
+  </view>
+  <view class="tab border">
+    <view class="tab-header">
+      <view class="tab-col f-c">苏州</view>
+      <view class="tab-col f-c">苏州第一门店</view>
+      <view class="tab-col f-c">600</view>
+      <view class="tab-col f-c" bindtap="linkLevel" data-id="" style="color: #FDA86F;">查看</view> 
+    </view>
+  </view>
+</scroll-view>

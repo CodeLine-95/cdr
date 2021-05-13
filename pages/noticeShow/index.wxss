@@ -1,0 +1,23 @@
+/* pages/noticeShow/index.wxss */
+.list{
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #ffffff;
+}
+.title{
+  text-align: center;
+  font-size: 35rpx;
+  font-weight: bold;
+  color: #111111;
+}
+
+.centent{
+  color: #111111;
+  text-indent: 2em;
+}
+
+.time{
+  text-align: right;
+  font-size: 14px;
+  color: #111111;
+}

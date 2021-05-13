@@ -1,0 +1,61 @@
+<import src="../../wxParse/wxParse.wxml"></import>
+<scroll-view bindscroll="scroll" scroll-top="{{scrollTop}}" scroll-y="true" style="position:absolute; top:0; left:0; right:0; bottom:0;">
+  <view class="container" wx:if="{{detail.goods_id}}">
+    <view bindtap="imgPreview">
+      <swiper autoplay="{{autoplay}}" bindchange="setCurrent" class="banner-box  swiper-box" duration="{{duration}}" indicator-dots="{{indicatorDots}}" interval="{{interval}}" circular="{{true}}">
+        <swiper-item wx:for="{{detail.image}}" wx:key="this">
+          <image class="slide-image" mode="aspectFill" src="{{item.file_path}}"></image>
+        </swiper-item>
+      </swiper>
+      <view class="number-banner">
+        <text>{{currentIndex}}</text>
+        <text>/{{detail.image.length}}</text>
+      </view>
+    </view>
+    <view class="cont-box b-f">
+      <view class="goods-title ">
+        <text class="title f-32 twolist-hidden">这是产品名字</text>
+      </view>
+      <view class="money-box">
+        <text class="num">￥200</text>
+      </view>
+      <view style="colot: #666666;font-size: 14px;">
+        这是产品介绍，这是产品介绍，这是产品介绍，这是产品介绍，这是产品介绍，这是产品介绍.
+      </view>
+    </view>
+
+    <!-- -->
+    <view class="p-bottom">
+      <view class="top-nav m-top20 b-f b-b">
+        <view class="top-nav-bar" style="padding: 0;">
+          <view class="col5 active">商品详情</view>
+          <view class="col5">商品评论</view>
+          <!-- <view bindtap="toOrder" id="top-nav-bar-true">
+            <span>商品详情</span>
+          </view> -->
+        </view>
+      </view>
+    </view>
+
+    <!-- 底部操作栏 -->
+    <view class="footer-fixed f-30">
+      <!-- 购物车按钮 -->
+      <!-- <view bindtap="flowCart" class="goods-fixed-icon dis-flex flex-x-center flex-y-center">
+        <text class="iconfont icon-cart_b"></text>
+        <view class="flow_num" wx:if="{{cart_total_num > 0}}">
+          <text class="">{{cart_total_num}}</text>
+        </view>
+      </view> -->
+      <view bindtap="submit" class="order-number" data-type="addCart">加入购物车</view>
+      <view bindtap="submit" class="order-bt" data-type="buyNow"> 立即购买</view>
+    </view>
+  </view>
+</scroll-view>
+
+<!-- 返回顶部 -->
+<view bindtap="goTop" class="widget-goTop" wx:if="{{floorstatus}}">
+  <text class="iconfont icon-fanhuidingbu"></text>
+</view>
+
+<!-- 快捷导航 -->
+<!-- <shortcut></shortcut> -->

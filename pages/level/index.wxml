@@ -1,0 +1,84 @@
+<!--pages/level/index.wxml-->
+<view class="container">
+  <view class="tab b-s">
+    <view class="tab-header">
+      <view class="tab-col">厂家名称</view>
+      <view class="tab-col">市场等级</view>
+      <view class="tab-col">大区积分</view>
+      <view class="tab-col">小区积分</view>
+      <view class="tab-col">积分明细</view>
+    </view>
+  </view>
+
+  <scroll-view bindscroll="scroll" scroll-top="{{scrollTop}}" scroll-y="true" style="position:absolute; top:43px; left:0; right:0; bottom:0;">
+    <view class="tab border">
+      <view class="tab-header">
+        <view class="tab-col f-c">厂家一</view>
+        <view class="tab-col f-c">C2</view>
+        <view class="tab-col f-c">123.5万</view>
+        <view class="tab-col f-c">123.5万</view>
+        <view class="tab-col f-c" bindtap="linkLevel" data-id="" style="color: #FDA86F;">查看</view> 
+      </view>
+    </view>
+    <view class="tab border">
+      <view class="tab-header">
+        <view class="tab-col f-c">厂家一</view>
+        <view class="tab-col f-c">C2</view>
+        <view class="tab-col f-c">123.5万</view>
+        <view class="tab-col f-c">123.5万</view>
+        <view class="tab-col f-c" bindtap="linkLevel" data-id="" style="color: #FDA86F;">查看</view> 
+      </view>
+    </view>
+    <view class="tab border">
+      <view class="tab-header">
+        <view class="tab-col f-c">厂家一</view>
+        <view class="tab-col f-c">C2</view>
+        <view class="tab-col f-c">123.5万</view>
+        <view class="tab-col f-c">123.5万</view>
+        <view class="tab-col f-c" bindtap="linkLevel" data-id="" style="color: #FDA86F;">查看</view> 
+      </view>
+    </view>
+    <view class="tab border">
+      <view class="tab-header">
+        <view class="tab-col f-c">厂家一</view>
+        <view class="tab-col f-c">C2</view>
+        <view class="tab-col f-c">123.5万</view>
+        <view class="tab-col f-c">123.5万</view>
+        <view class="tab-col f-c" bindtap="linkLevel" data-id="" style="color: #FDA86F;">查看</view> 
+      </view>
+    </view>
+    <view class="tab border">
+      <view class="tab-header">
+        <view class="tab-col f-c">厂家一</view>
+        <view class="tab-col f-c">C2</view>
+        <view class="tab-col f-c">123.5万</view>
+        <view class="tab-col f-c">123.5万</view>
+        <view class="tab-col f-c" bindtap="linkLevel" data-id="" style="color: #FDA86F;">查看</view> 
+      </view>
+    </view>
+    <view class="tab border">
+      <view class="tab-header">
+        <view class="tab-col f-c">厂家一</view>
+        <view class="tab-col f-c">C2</view>
+        <view class="tab-col f-c">123.5万</view>
+        <view class="tab-col f-c">123.5万</view>
+        <view class="tab-col f-c" bindtap="linkLevel" data-id="" style="color: #FDA86F;">查看</view> 
+      </view>
+    </view>
+    <view class="tab border">
+      <view class="tab-header">
+        <view class="tab-col f-c">厂家一</view>
+        <view class="tab-col f-c">C2</view>
+        <view class="tab-col f-c">123.5万</view>
+        <view class="tab-col f-c">123.5万</view>
+        <view class="tab-col f-c" bindtap="linkLevel" data-id="" style="color: #FDA86F;">查看</view> 
+      </view>
+    </view>
+
+    <view class="tab">
+      <view class="tab-header f-34" style="font-weight: bold; height: 100rpx;line-height: 100rpx; text-align: center;">
+        查看更多>
+      </view>
+    </view>
+  </scroll-view>
+</view>

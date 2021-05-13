@@ -1,0 +1,22 @@
+<!--pages/storeAdd/index1.wxml-->
+<view class="container">
+  <view class="list">
+    <form bindsubmit="onTarget" data-url="pages/storeAdd/index2">
+      <view class="listItem">
+        <text class="text">姓名：</text>
+        <input type="text" class="input" name="storeName" placeholder="请输入店铺名称"></input>
+      </view>
+      <view class="listItem">
+        <text class="text">地址：</text>
+        <input type="text" class="input" name="storeName" placeholder="请输入店铺地址"></input>
+      </view>
+      <view class="listItem">
+        <text class="text">手机：</text>
+        <input type="text" class="input" name="storeName" placeholder="点击授权"></input>
+        <button size="mini" class="btn-normal">授权</button>
+      </view>
+
+      <button formType="submit" class="btn-sub">下一步</button>
+    </form>
+  </view>
+</view>

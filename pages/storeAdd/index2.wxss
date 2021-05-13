@@ -1,0 +1,59 @@
+/* pages/storeAdd/index2.wxss */
+.list{
+  margin: 120px auto;
+  padding: 10px;
+  background-color: #ffffff;
+  /* height: 300px; */
+
+}
+.list{
+  background-color: #ffffff;
+}
+
+.listItem{
+  width: calc(50% - 20px);
+  padding: 10px;
+  /* height: 50px;
+  line-height: 50px; */
+  float: left;
+  text-align: center;
+  /* border-bottom: 1px solid #F3F3F3; */
+}
+.img{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.up{
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  border-radius: 250px;
+  background-color: #EF8139;
+  z-index: 1;
+  top: 35px;
+  left: 60px;
+}
+
+.remark-text{
+  height: 60px;
+  line-height: 60px;
+  border-top: 1px solid #B7B7B7;
+  text-align: center;
+  clear: both;
+  margin-top: 20px;
+}
+
+.btn-sub{
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 60rpx;
+  padding: 0 20px !important;
+  border-radius: 30px !important;
+  border: none;
+  /* border: 1px solid #EF8139 !important; */
+  color: #ffffff !important;
+  background-color: #EF8139;
+}

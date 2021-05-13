@@ -1,0 +1,97 @@
+<!--pages/team/team.wxml-->
+<view class="container" style="overflow: hidden;">
+  <!-- tab切换 -->
+  <view class="tab">
+    <view class="tab-col5 {{teamClass}}" bindtap="tabChange" data-act="team">
+      <block wx:if="{{teamClass}}">
+        <image src="/images/tool/team_on.png"></image>
+      </block>
+      <block wx:else>
+        <image src="/images/tool/team.png"></image>
+      </block>
+      <text>我的团队  </text>
+      <text>130</text>
+    </view>
+    <view class="tab-col5 {{storeClass}}" bindtap="tabChange" data-act="store">
+      <block wx:if="{{storeClass}}">
+        <image src="/images/tool/store_on.png"></image>
+      </block>
+      <block wx:else>
+        <image src="/images/tool/store.png"></image>
+      </block>
+      <text>团队门店  </text>
+      <text>130</text>
+    </view>
+  </view>
+  <view class="tab_sm">
+    <view class="tab-col5 {{teamSmClass}}" bindtap="tabSmChange" data-act="teamSm">
+      <text>直推  </text>
+      <text>(30)</text>
+    </view>
+    <view class="tab-col5 {{storeSmClass}}" bindtap="tabSmChange" data-act="storeSm">
+      <text>间推  </text>
+      <text>(130)</text>
+    </view>
+  </view>
+  <view class="tabList">
+    <view class="tabItem">
+      <view class="fl t-l tab-col5 def">
+        <text>张三(10000)</text>
+      </view>
+      <view class="fr t-r tab-col5 num">
+        <view class="tab-text">团队人数</view>
+        <view class="tab-num">180人</view>
+      </view>
+    </view>
+
+    <view class="tabItem">
+      <view class="fl t-l tab-col5 def">
+        <text>张三(10000)</text>
+      </view>
+      <view class="fr t-r tab-col5 num">
+        <view class="tab-text">团队人数</view>
+        <view class="tab-num">180人</view>
+      </view>
+    </view>
+
+    <view class="tabItem">
+      <view class="fl t-l tab-col5 def">
+        <text>张三(10000)</text>
+      </view>
+      <view class="fr t-r tab-col5 num">
+        <view class="tab-text">团队人数</view>
+        <view class="tab-num">180人</view>
+      </view>
+    </view>
+
+    <view class="tabItem">
+      <view class="fl t-l tab-col5 def">
+        <text>张三(10000)</text>
+      </view>
+      <view class="fr t-r tab-col5 num">
+        <view class="tab-text">团队人数</view>
+        <view class="tab-num">180人</view>
+      </view>
+    </view>
+
+    <view class="tabItem">
+      <view class="fl t-l tab-col5 def">
+        <text>张三(10000)</text>
+      </view>
+      <view class="fr t-r tab-col5 num">
+        <view class="tab-text">团队人数</view>
+        <view class="tab-num">180人</view>
+      </view>
+    </view>
+
+    <view class="tabItem">
+      <view class="fl t-l tab-col5 def">
+        <text>张三(10000)</text>
+      </view>
+      <view class="fr t-r tab-col5 num">
+        <view class="tab-text">团队人数</view>
+        <view class="tab-num">180人</view>
+      </view>
+    </view>
+  </view>
+</view>
