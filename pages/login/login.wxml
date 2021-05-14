@@ -3,7 +3,12 @@
     <image class="header" src="/images/login_logo.png"></image>
   </view>
   <view class="login-btn">
-    <button class="btn-normal" hover-class="none" plain open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">获取微信手机号登录</button>
+    <block wx:if="{{agreementCheck == 1}}">
+      <button class="btn-normal" hover-class="none" plain open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">获取微信手机号登录</button>
+    </block>
+    <block wx:else>
+      <button class="btn-normal" hover-class="none" plain catchtap="getPhoneNumber">获取微信手机号登录</button>
+    </block>
   </view>
   <view class="new-user-login-btn">
     <button class="btn-normal" hover-class="none" plain catchtap="newUserLogin">新用户登录</button>

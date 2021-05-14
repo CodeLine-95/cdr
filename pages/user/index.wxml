@@ -5,10 +5,12 @@
       <!-- 已登录 -->
       <view wx:if="{{ isLogin }}" class="user-header-cont">
         <view class="user-header-avatar">
-          <open-data class="" lang="zh_CN" type="userAvatarUrl"></open-data>
+          <image src="{{userInfo.imgUrl}}"></image>
         </view>
-        <open-data class="user-header-cont-name" lang="zh_CN" type="userNickName"></open-data>
-        <view class="user-header-cont-name">UID:</view>
+        <view style="height: 120rpx;">
+          <view class="user-header-cont-name" style="padding:10rpx 0;">{{userInfo.nickName}}</view>
+          <view class="user-header-cont-name" style="padding:10rpx 0;font-size:25rpx"  wx:if="{{ userInfo.uid }}">UID: {{userInfo.uid}}</view>
+        </view>
       </view>
       <!-- 未登录 -->
       <view wx:else class="user-header-cont" catchtap="onLogin">
@@ -98,7 +100,7 @@
         </view>
       </button>
     </form>
-    <!-- <form bindsubmit="onTargetMenus" data-url="pages/address/index">
+    <form bindsubmit="onTargetMenus" data-url="pages/address/index">
       <button formType="submit" class="btn-normal">
         <view class="menus-item dis-flex b-f">
           <view class="menus-item__left flex-box dis-flex flex-y-center">
@@ -111,19 +113,6 @@
         </view>
       </button>
     </form>
-    <form>
-      <button open-type="contact" class="btn-normal">
-        <view class="menus-item dis-flex b-f">
-          <view class="menus-item__left flex-box dis-flex flex-y-center">
-            <text class="iconfont icon-icon_service f-34"></text>
-            <text class="menus-item__name f-30">联系客服</text>
-          </view>
-          <view class="menus-item__right flex-box dis-flex flex-x-end flex-y-center">
-            <text class="iconfont icon-xiangyoujiantou f-26 col-7"></text>
-          </view>
-        </view>
-      </button>
-    </form> -->
   </view>
 
   <view class="menus-list m-top20">

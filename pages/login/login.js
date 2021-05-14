@@ -23,11 +23,16 @@ Page({
    */
   getPhoneNumber(e) {
     let _this = this;
-    e.detail.userInfo = _this.data.userInfo;
-    App.getPhoneNumber(e, () => {
-      // 跳转回原页面
-      _this.onNavigateBack();
-    });
+    let agreementCheck = _this.data.agreementCheck;
+    if(agreementCheck == 1){
+      e.detail.userInfo = _this.data.userInfo;
+      App.getPhoneNumber(e, () => {
+        // 跳转回原页面
+        _this.onNavigateBack();
+      });
+    }else{
+      App.showError('请勾选用户协议', () => {});
+    }
   },
 
   /**

@@ -37,9 +37,16 @@ Page({
    */
   getUserDetail() {
     let _this = this;
-    // App._get('user.index/detail', {}, result => {
-    //   _this.setData(result.data);
-    // });
+    App._get('app/user/getUserMsg', {}, result => {
+      if(result.code == 1){
+        let userInfo = result.data;
+        let uid = wx.getStorageSync('user_id');
+        userInfo.uid = uid;
+        _this.setData({ userInfo: userInfo })
+      }else{
+        App.showError('获取用户失败');
+      }
+    });
   },
 
   /**

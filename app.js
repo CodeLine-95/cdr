@@ -160,7 +160,7 @@ App({
             // 登录态失效, 重新登录
             wx.hideNavigationBarLoading();
             App.doLogin();
-          } else if (res.data.code === 0) {
+          } else if (res.data.code !== 1) {
             App.showError(res.data.msg);
             return false;
           } else {
@@ -219,7 +219,7 @@ App({
             App._post_form(url, data, success, fail);
           });
           return false;
-        } else if (res.data.code === 0) {
+        } else if (res.data.code !== 1) {
           App.showError(res.data.msg, () => {
             fail && fail(res);
           });
@@ -349,9 +349,21 @@ App({
   },
 
   saveUserMessage(data, callback){
+    let App = this;
     wx.showLoading({
       title: "正在获取",
       mask: true
+    });
+    // 发送用户信息
+    App._post_form('/app/user/saveUserMessage', {
+      nickName: data.nickName,
+      avatarUrl: data.avatarUrl,
+      gender: data.gender
+    }, result => {
+      // 执行回调函数
+      callback && callback();
+    }, false, () => {
+      wx.hideLoading();
     });
   },
 
@@ -380,8 +392,10 @@ App({
           wx.setStorageSync('token', result.data.token);
           wx.setStorageSync('user_id', result.data.uid);
           wx.setStorageSync(result.data.uid, {openId: result.data.openid, phone: result.data.phone});
-          // 执行回调函数
-          callback && callback();
+          App.saveUserMessage(e.detail.userInfo,() => {
+            // 执行回调函数
+            callback && callback();
+          })
         }, false, () => {
           wx.hideLoading();
         });
