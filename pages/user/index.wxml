@@ -207,7 +207,7 @@
         </view>
       </button>
     </form>
-    <form bindsubmit="onTargetMenus" data-url="pages/setting/index">
+    <form bindsubmit="onTargetMenus" data-url="/pages/setting/index">
       <button formType="submit" class="btn-normal">
         <view class="menus-item dis-flex b-f">
           <view class="menus-item__left flex-box dis-flex flex-y-center">
